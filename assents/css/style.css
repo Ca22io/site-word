@@ -1,0 +1,92 @@
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../imagens/fundo.jpg');
+    background-size: 100%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.contanier{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+#logo{
+    width: 200px;
+    height: 80px;
+}
+.menu{
+    display: flex;
+    flex:1;
+    width: 50px;
+    height: 100px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+nav ul,
+nav li{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav a{    
+    margin-left: 5px;
+    margin-right: 5px;
+    display: block;
+    padding:15px ;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+nav .active a,
+nav a:hover{
+    border:  1px solid #7468ba;
+    color: white;
+}
+
+#frase{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+
+}
+.higline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+    flex-wrap: wrap;
+}
+.higline h1{
+    color:#ffffff;
+    font-size: 70px;
+    text-shadow: 3px 3px 0px #39aae1 ;
+    margin:0;
+    padding: 0;
+    max-width: 370px;
+}
+.higline h2{
+    color:#ffffff;
+    font-size: 21px;
+    text-shadow: 1px 1px 0px #39aae1 ;
+    margin: 0;
+    padding: 0;
+    max-width: 300px;
+    margin-top: 30px;
+}
